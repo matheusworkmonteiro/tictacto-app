@@ -1,0 +1,96 @@
+/* Remove margens padrão e define a fonte */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Centraliza a caixa de login no meio da tela */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+/* Estilo da caixa branca principal */
+.login-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+.login-container h1 {
+    color: #333;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.login-container p {
+    color: #666;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+/* Estilo dos campos de digitar */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #444;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Estilo do botão Entrar */
+.btn-entrar {
+    width: 100%;
+    padding: 12px;
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-entrar:hover {
+    background-color: #357ABD;
+}
+
+/* Estilo da área de criar conta */
+.cadastro-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.cadastro-link a {
+    color: #4A90E2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cadastro-link a:hover {
+    text-decoration: underline;
+}
